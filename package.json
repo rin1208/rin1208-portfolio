@@ -1,0 +1,28 @@
+{
+  "name": "rin1208",
+  "version": "1.0.0",
+  "private": true,
+  "description": "rin1208-portfolio",
+  "author": "rin1208",
+  "scripts": {
+    "build": "nuxt build",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "precommit": "npm run lint",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "element-ui": "^2.3.6",
+    "nuxt": "^2.0.0",
+    "vue-awesome": "^4.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "vue-cli-plugin-element-ui": "^1.1.4"
+  }
+}
