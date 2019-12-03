@@ -1,8 +1,16 @@
 <template>
   <div>
-    <my-header />
-    <nuxt />
-    <!-- <my-footer /> -->
+    <el-container>
+      <el-header>
+        <my-header />
+      </el-header>
+      <el-main>
+        <nuxt />
+      </el-main>
+      <el-footer>
+        <my-footer />
+      </el-footer>
+    </el-container>
   </div>
 </template>
 
@@ -19,6 +27,4 @@ export default {
 </script>
 
 <style>
-footer {
-}
 </style>

@@ -193,6 +193,21 @@
                 </p>
               </li>
             </ul>
+            <li>Firebase: December, 2019 ~</li>
+            <ul>
+              <li>
+                <p style="display:inline;">
+                  Level
+                  <el-rate
+                    style="display:inline;"
+                    disabled-void-color="#777777"
+                    v-model="value12"
+                    disabled
+                    :colors="colors"
+                  ></el-rate>
+                </p>
+              </li>
+            </ul>
           </ul>
         </div>
       </el-col>
@@ -215,6 +230,7 @@ export default {
       value9: 3.0,
       value10: 3.0,
       value11: 3.0,
+      value12: 2.0,
       colors: ["#64AAFD", "#64AAFD", "#64AAFD"]
     };
   }
