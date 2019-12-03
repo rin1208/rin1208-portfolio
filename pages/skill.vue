@@ -3,11 +3,11 @@
     <el-row :gutter="24" type="flex">
       <el-col :span="12">
         <div class="skill">
-          <h2>Back End</h2>
+          <h2 class="category">Back End</h2>
           <ul>
-            <li>Go : October, 2018 ~</li>
+            <li class="tag">Go : October, 2018 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -20,9 +20,9 @@
                 </p>
               </li>
             </ul>
-            <li>Python : May, 2019 ~</li>
+            <li class="tag">Python : May, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -40,11 +40,11 @@
       </el-col>
       <el-col :span="12">
         <div class="skill">
-          <h2>Front End</h2>
+          <h2 class="category">Front End</h2>
           <ul>
-            <li>Javascrpt : June, 2019 ~</li>
+            <li class="tag">Javascrpt : June, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -57,9 +57,9 @@
                 </p>
               </li>
             </ul>
-            <li>Vuejs : June, 2019 ~</li>
+            <li class="tag">Vuejs : June, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -79,11 +79,11 @@
     <el-row :gutter="24" type="flex">
       <el-col :span="12">
         <div class="skill">
-          <h2>DB</h2>
+          <h2 class="category">DB</h2>
           <ul>
-            <li>MySQL : April, 2019 ~</li>
+            <li class="tag">MySQL : April, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -96,9 +96,9 @@
                 </p>
               </li>
             </ul>
-            <li>Dynamodb : October, 2019 ~</li>
+            <li class="tag">Dynamodb : October, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -111,9 +111,9 @@
                 </p>
               </li>
             </ul>
-            <li>S3 : June, 2019 ~</li>
+            <li class="tag">S3 : June, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -126,9 +126,9 @@
                 </p>
               </li>
             </ul>
-            <li>Elasticsearch : September, 2019 ~</li>
+            <li class="tag">Elasticsearch : September, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -146,11 +146,11 @@
       </el-col>
       <el-col :span="12">
         <div class="skill">
-          <h2>Other</h2>
+          <h2 class="category">Other</h2>
           <ul>
-            <li>Git : October, 2018 ~</li>
+            <li class="tag">Git : October, 2018 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -163,9 +163,9 @@
                 </p>
               </li>
             </ul>
-            <li>Docker: April, 2019 ~</li>
+            <li class="tag">Docker: April, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -178,9 +178,9 @@
                 </p>
               </li>
             </ul>
-            <li>Docker-Compose: April, 2019 ~</li>
+            <li class="tag">Docker-Compose: April, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -193,9 +193,9 @@
                 </p>
               </li>
             </ul>
-            <li>Firebase: December, 2019 ~</li>
+            <li class="tag">Firebase: December, 2019 ~</li>
             <ul>
-              <li>
+              <li class="tag">
                 <p style="display:inline;">
                   Level
                   <el-rate
@@ -244,7 +244,10 @@ export default {
   background-color: #f5f5f5;
   border-radius: 10px;
 }
-li {
+.tag {
+  font-size: 20px;
+}
+.category {
   font-size: 20px;
 }
 </style>

@@ -2,13 +2,11 @@
   <div>
     <div class="timeline">
       <h2>Intern Career</h2>
-      <simple-timeline :items="career"></simple-timeline>
+      <simple-timeline :items="career" style=" font-size: 15px;"></simple-timeline>
     </div>
     <div class="timeline">
-      <h2>
-        Participated Competition
-      </h2>
-      <simple-timeline :items="tournament"></simple-timeline>
+      <h2>Participated Competition</h2>
+      <simple-timeline :items="tournament" style=" font-size: 15px;"></simple-timeline>
     </div>
   </div>
 </template>

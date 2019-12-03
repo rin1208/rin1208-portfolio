@@ -10,6 +10,7 @@
           mode="horizontal"
           class="el-menu-demo"
           :router="true"
+          active-text-color="＃303133"
           @select="handleSelect"
         >
           <el-menu-item index="/">
