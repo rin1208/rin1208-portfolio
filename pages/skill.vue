@@ -88,7 +88,7 @@
         </div>
       </el-col>
     </el-row>
-    <el-row type="flex">
+    <el-row>
       <el-col
         :xs="{span: 24, offset: 0}"
         :sm="{span: 24, offset: 0}"
