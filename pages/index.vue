@@ -2,11 +2,23 @@
   <div>
     <div class="profile">
       <h1>PROFILE</h1>
-      <el-row :gutter="20" type="flex">
-        <el-col :span="6" :offset="3">
+      <el-row :gutter="20">
+        <el-col
+          :xs="{span: 24, offset: 1}"
+          :sm="{span: 24, offset: 1}"
+          :md="{span: 24, offset: 1}"
+          :lg="{span: 6, offset: 3}"
+          :xl="{span: 6, offset: 3}"
+        >
           <img src="icon_mikisai.png" :height="300" />
         </el-col>
-        <el-col :span="10" :offset="2">
+        <el-col
+          :xs="{span: 24, offset: 0}"
+          :sm="{span: 24, offset: 0}"
+          :md="{span: 24, offset: 0}"
+          :lg="{span: 10, offset: 2}"
+          :xl="{span: 10, offset: 2}"
+        >
           <ul>
             <li class="tab">Name:</li>
             <p class="coment">RIN1208 (Backend Engineer)</p>
@@ -21,7 +33,7 @@
           </ul>
           <ul>
             <li class="tab">My Hobby:</li>
-            <p class="coment">Anime , Comic book , Game, Comic market</p>
+            <p class="coment">Anime , Game, Comic market</p>
           </ul>
         </el-col>
       </el-row>
@@ -35,7 +47,7 @@ export default {};
 
 <style>
 .tab {
-  font-size: 25px;
+  font-size: 30px;
 }
 h1 {
   font-size: 40px;
@@ -43,7 +55,7 @@ h1 {
 }
 .coment {
   margin: 0px 0px 0px 40px;
-  font-size: 20px;
+  font-size: 23px;
 }
 .profile {
   margin: 20px;

@@ -1,10 +1,22 @@
 <template>
   <div class="home">
-    <el-row type="flex" class="row-bg">
-      <el-col :span="4" width="150px">
+    <el-row class="row-bg">
+      <el-col
+        :xs="{span: 1, offset: 0}"
+        :sm="{span: 1, offset: 0}"
+        :md="{span: 1, offset: 0}"
+        :lg="{span: 4, offset: 0}"
+        :xl="{span: 4, offset: 0}"
+      >
         <p style="text-align:center;font-size: 25px;">RIN1208</p>
       </el-col>
-      <el-col :span="20">
+      <el-col
+        :xs="{span: 24, offset: 0}"
+        :sm="{span: 24, offset: 0}"
+        :md="{span: 24, offset: 0}"
+        :lg="{span: 20, offset: 0}"
+        :xl="{span: 20, offset: 0}"
+      >
         <el-menu
           :default-active="activeIndex"
           mode="horizontal"
