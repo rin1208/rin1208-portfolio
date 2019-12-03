@@ -15,7 +15,8 @@
   "dependencies": {
     "element-ui": "^2.3.6",
     "nuxt": "^2.0.0",
-    "vue-awesome": "^4.0.2"
+    "vue-awesome": "^4.0.2",
+    "vue-simple-timeline": "^0.1.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

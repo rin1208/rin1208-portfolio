@@ -1,29 +1,29 @@
 <template>
   <div class="home">
-    <el-container>
-      <el-aside width="200px">
-        <h2 style="text-align:center">RIN1208</h2>
-      </el-aside>
-      <el-main>
+    <el-row type="flex" class="row-bg">
+      <el-col :span="4" width="150px">
+        <p style="text-align:center;font-size: 25px;">RIN1208</p>
+      </el-col>
+      <el-col :span="20">
         <el-menu
           :default-active="activeIndex"
           mode="horizontal"
           class="el-menu-demo"
+          :router="true"
           @select="handleSelect"
         >
-          <el-menu-item index="1">
-            <router-link to="/">
-              <p>HOME</p>
-            </router-link>
+          <el-menu-item index="/">
+            <p>HOME</p>
           </el-menu-item>
-          <el-menu-item index="2">
-            <router-link to="/skill">
-              <p>SKILL</p>
-            </router-link>
+          <el-menu-item index="/skill">
+            <p>SKILL</p>
+          </el-menu-item>
+          <el-menu-item index="/career">
+            <p>CAREER</p>
           </el-menu-item>
         </el-menu>
-      </el-main>
-    </el-container>
+      </el-col>
+    </el-row>
   </div>
 </template>
 
