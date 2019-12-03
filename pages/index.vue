@@ -10,7 +10,9 @@
           :lg="{span: 6, offset: 3}"
           :xl="{span: 6, offset: 3}"
         >
-          <img src="icon_mikisai.png" :height="300" />
+          <el-card :body-style="{ padding: '0px' }" style="width:80%">
+            <img src="icon_mikisai.png" style="width:100%;display:block;" />
+          </el-card>
         </el-col>
         <el-col
           :xs="{span: 24, offset: 0}"
@@ -58,7 +60,7 @@ h1 {
   font-size: 23px;
 }
 .profile {
-  margin: 20px;
+  margin: 20px 5px;
   padding: 10px 0px 35px 0px;
   background-color: #f5f5f5;
   border-radius: 10px;

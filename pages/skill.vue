@@ -263,7 +263,7 @@ export default {
 
 <style>
 .skill {
-  margin: 20px;
+  margin: 20px 5px;
   padding: 20px;
   background-color: #f5f5f5;
   border-radius: 10px;

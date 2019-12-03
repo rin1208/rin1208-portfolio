@@ -60,7 +60,7 @@ export default {
 
 <style>
 .timeline {
-  margin: 20px;
+  margin: 20px 5px;
   padding: 25px 35px;
   background-color: #f5f5f5;
   border-radius: 10px;
