@@ -1,7 +1,13 @@
 <template>
   <div>
-    <el-row :gutter="24" type="flex">
-      <el-col :span="12">
+    <el-row>
+      <el-col
+        :xs="{span: 24, offset: 0}"
+        :sm="{span: 24, offset: 0}"
+        :md="{span: 24, offset: 0}"
+        :lg="{span: 12, offset: 0}"
+        :xl="{span: 12, offset: 0}"
+      >
         <div class="skill">
           <h2 class="category">Back End</h2>
           <ul>
@@ -38,7 +44,13 @@
           </ul>
         </div>
       </el-col>
-      <el-col :span="12">
+      <el-col
+        :xs="{span: 24, offset: 0}"
+        :sm="{span: 24, offset: 0}"
+        :md="{span: 24, offset: 0}"
+        :lg="{span: 12, offset: 0}"
+        :xl="{span: 12, offset: 0}"
+      >
         <div class="skill">
           <h2 class="category">Front End</h2>
           <ul>
@@ -76,8 +88,14 @@
         </div>
       </el-col>
     </el-row>
-    <el-row :gutter="24" type="flex">
-      <el-col :span="12">
+    <el-row type="flex">
+      <el-col
+        :xs="{span: 24, offset: 0}"
+        :sm="{span: 24, offset: 0}"
+        :md="{span: 24, offset: 0}"
+        :lg="{span: 12, offset: 0}"
+        :xl="{span: 12, offset: 0}"
+      >
         <div class="skill">
           <h2 class="category">DB</h2>
           <ul>
@@ -144,7 +162,13 @@
           </ul>
         </div>
       </el-col>
-      <el-col :span="12">
+      <el-col
+        :xs="{span: 24, offset: 0}"
+        :sm="{span: 24, offset: 0}"
+        :md="{span: 24, offset: 0}"
+        :lg="{span: 12, offset: 0}"
+        :xl="{span: 12, offset: 0}"
+      >
         <div class="skill">
           <h2 class="category">Other</h2>
           <ul>
