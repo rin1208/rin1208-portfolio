@@ -1,29 +1,71 @@
 <template>
   <div class="home">
-    <el-container>
-      <el-aside width="200px">
-        <h2 style="text-align:center">RIN1208</h2>
-      </el-aside>
-      <el-main>
+    <el-row>
+      <el-col
+        :xs="{span: 12, offset: 0}"
+        :sm="{span: 4, offset: 0}"
+        :md="{span: 4, offset: 0}"
+        :lg="{span: 4, offset: 0}"
+        :xl="{span: 4, offset: 0}"
+      >
+        <p style="text-align:center;font-size: 25px;">RIN1208</p>
+      </el-col>
+      <el-col
+        :xs="{span: 0, offset: 0}"
+        :sm="{span: 20, offset: 0}"
+        :md="{span: 20, offset: 0}"
+        :lg="{span: 20, offset: 0}"
+        :xl="{span: 20, offset: 0}"
+      >
         <el-menu
           :default-active="activeIndex"
           mode="horizontal"
           class="el-menu-demo"
+          :router="true"
+          active-text-color="＃303133"
           @select="handleSelect"
         >
-          <el-menu-item index="1">
-            <router-link to="/">
-              <p>HOME</p>
-            </router-link>
+          <el-menu-item index="/">
+            <p>HOME</p>
           </el-menu-item>
-          <el-menu-item index="2">
-            <router-link to="/skill">
-              <p>SKILL</p>
-            </router-link>
+          <el-menu-item index="/skill">
+            <p>SKILL</p>
+          </el-menu-item>
+          <el-menu-item index="/career">
+            <p>CAREER</p>
           </el-menu-item>
         </el-menu>
-      </el-main>
-    </el-container>
+      </el-col>
+      <el-col
+        :xs="{span: 6, offset: 4}"
+        :sm="{span: 0, offset: 0}"
+        :md="{span: 0, offset: 0}"
+        :lg="{span: 0, offset: 0}"
+        :xl="{span: 0, offset: 0}"
+      >
+        <el-menu
+          :default-active="activeIndex"
+          mode="horizontal"
+          class="el-menu-demo"
+          :router="true"
+          active-text-color="＃303133"
+          @select="handleSelect"
+        >
+          <el-submenu index="2-4">
+            <template slot="title">MENU</template>
+            <el-menu-item index="/">
+              <p>HOME</p>
+            </el-menu-item>
+            <el-menu-item index="/skill">
+              <p>SKILL</p>
+            </el-menu-item>
+            <el-menu-item index="/career">
+              <p>CAREER</p>
+            </el-menu-item>
+          </el-submenu>
+        </el-menu>
+      </el-col>
+    </el-row>
   </div>
 </template>
 

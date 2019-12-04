@@ -2,36 +2,40 @@
   <div>
     <div class="profile">
       <h1>PROFILE</h1>
-      <el-row :gutter="20" type="flex">
-        <el-col :span="6" :offset="3"
-          ><img src="icon_mikisai.png" :height="300"
-        /></el-col>
-        <el-col :span="10" :offset="2">
+      <el-row :gutter="20">
+        <el-col
+          :xs="{span: 24, offset: 1}"
+          :sm="{span: 24, offset: 1}"
+          :md="{span: 24, offset: 1}"
+          :lg="{span: 6, offset: 3}"
+          :xl="{span: 6, offset: 3}"
+        >
+          <el-card :body-style="{ padding: '0px' }" style="width:80%">
+            <img src="icon_mikisai.png" style="width:100%;display:block;" />
+          </el-card>
+        </el-col>
+        <el-col
+          :xs="{span: 24, offset: 0}"
+          :sm="{span: 24, offset: 0}"
+          :md="{span: 24, offset: 0}"
+          :lg="{span: 10, offset: 2}"
+          :xl="{span: 10, offset: 2}"
+        >
           <ul>
-            <li>
-              Name:
-            </li>
-            <p class="coment">
-              RIN1208 (Backend Engineer)
-            </p>
+            <li class="tab">Name:</li>
+            <p class="coment">RIN1208 (Backend Engineer)</p>
           </ul>
           <ul>
-            <li>
-              Date of birth:
-            </li>
+            <li class="tab">Date of birth:</li>
             <p class="coment">August , 23 , 1999</p>
           </ul>
           <ul>
-            <li>
-              My Hobby:
-            </li>
-            <p class="coment">anime , comic book , game</p>
+            <li class="tab">My location:</li>
+            <p class="coment">Japan, Tokyo</p>
           </ul>
           <ul>
-            <li>
-              My favorite game:
-            </li>
-            <p class="coment">Labyrinth of Refrain: Coven of Dusk</p>
+            <li class="tab">My Hobby:</li>
+            <p class="coment">Anime , Game, Comic market</p>
           </ul>
         </el-col>
       </el-row>
@@ -44,8 +48,8 @@ export default {};
 </script>
 
 <style>
-li {
-  font-size: 25px;
+.tab {
+  font-size: 30px;
 }
 h1 {
   font-size: 40px;
@@ -53,10 +57,10 @@ h1 {
 }
 .coment {
   margin: 0px 0px 0px 40px;
-  font-size: 20px;
+  font-size: 23px;
 }
 .profile {
-  margin: 20px;
+  margin: 20px 5px;
   padding: 10px 0px 35px 0px;
   background-color: #f5f5f5;
   border-radius: 10px;
