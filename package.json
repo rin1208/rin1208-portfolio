@@ -13,6 +13,7 @@
     "start": "nuxt start"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^3.0.0-beta.19",
     "element-ui": "^2.3.6",
     "nuxt": "^2.0.0",
     "vue-awesome": "^4.0.2",
