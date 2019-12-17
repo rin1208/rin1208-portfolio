@@ -35,6 +35,10 @@ module.exports = {
     },
     vendor: ["element-ui"]
   },
-  plugins: ["~plugins/element-ui"],
+  plugins: [
+    "~/plugins/element-ui.js",
+    "~/plugins/timeline.js",
+    "~/plugins/menu.js"
+  ],
   css: ["element-ui/lib/theme-chalk/index.css"]
 };
